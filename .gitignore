@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Env
+.env
+.env.*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Firestore rules
+firestore.rules 
+.firebase/
+# Firebase config
+firebase.json
+.firebase/*
+# Package lock
+package-lock.json
+.firebase/hosting.ZGlzdA.cache
+# Cursor
+.cursorignore
+.cursorrules
+
+# rag stuff
+venv/*
+venv
+venv/lib/*
+credentials/
+
+# cache
+.cache
+__pycache__
+
+# vite build
+dist
+
+# firebase functions stuff
+/functions/venv/*
+/functions/venv
+/functions/venv/lib/*
+/functions/credentials/
